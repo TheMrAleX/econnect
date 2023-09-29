@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", 'requests>=2.31.0', 'bs4']
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "econnect"
+version = "0.0.1"
+authors = [
+  { name="Alejandro Pérez Santana", email="alejandroperezsantana55@gmail.com" },
+]
+description = "Un paquete de Python hecho para cubanos que quieran interactuar con la red Nauta del Portal Cautivo de Etecsa."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TheMrAleX/ecconect"
+"Bug Tracker" = "https://github.com/TheMrAleX/ecconect/issues"
