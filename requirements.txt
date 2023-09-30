@@ -1,0 +1,2 @@
+beautifulsoup4==4.12.2 ; python_version >= "3.7" and python_version < "4.0"
+requests==2.31.0 ; python_version >= "3.7" and python_version < "4.0"

@@ -1,22 +1,17 @@
-[build-system]
-requires = ["setuptools>=61.0", 'requests>=2.31.0', 'bs4']
-build-backend = "setuptools.build_meta"
-
-[project]
+[tool.poetry]
 name = "econnect"
-version = "0.0.1"
-authors = [
-  { name="Alejandro Pérez Santana", email="alejandroperezsantana55@gmail.com" },
-]
-description = "Un paquete de Python hecho para cubanos que quieran interactuar con la red Nauta del Portal Cautivo de Etecsa."
+version = "0.0.5"
+description = "Paquete para uso de los desarrolladores cubanos que les facilita el uso de funciones del portal cautivo Nauta."
+authors = ["Alejandro Pérez <alejandroperezsantana55@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+packages = [{include = "enet"}]
 
-[project.urls]
-"Homepage" = "https://github.com/TheMrAleX/ecconect"
-"Bug Tracker" = "https://github.com/TheMrAleX/ecconect/issues"
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
