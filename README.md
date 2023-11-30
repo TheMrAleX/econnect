@@ -1,5 +1,7 @@
 Bienvenido a la documentación de econnect, un módulo de Python para interactuar con el Portal Cautivo de Etecsa hecho en su totalidad con Python puro, un paquete listo para instalar con `pip install` en tu ordenador, te cuento como hacerlo.
 
+![](https://github.com/TheMrAleX/econnect/blob/main/logo.jpeg?raw=true)
+
 # Introducción
 El módulo econnect es una herramienta sencilla y eficaz para gestionar la conexión a la red. En esta guía rápida, te mostraremos cómo utilizarlo en tus proyectos.
 # Instalación
