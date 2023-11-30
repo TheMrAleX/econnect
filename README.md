@@ -15,6 +15,13 @@ El módulo econnect proporciona una clase llamada "nauta". Para comenzar a utili
 `nauta = econnect.nauta()`<br>
 Ahora estás listo para utilizar todos los métodos de la clase.
 # Flujo de trabajo
+Recalco que todas las funciones del modulo si se ejecutan correctamente van a devolver True y si no es asi devolveran False, por eso pueden ver un codigo organizado asi:
+```
+if funcion_1(): # osea si funcion_1 es = a True se ejecuta...
+    print('exito')
+else:
+    print('fatal')
+```
 Para un funcionamiento adecuado, sigue estos pasos:<br>
 - **Verificación de conexión:** Antes de llamar al método `login_net`, asegúrate de verificar la conexión con el método `test_net`. Esto se hace para validar ciertos parámetros y evitar errores. Aquí tienes un ejemplo de implementación: <br>
 ```
