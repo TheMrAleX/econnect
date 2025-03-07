@@ -203,7 +203,7 @@ nauta = nauta()
 # nauta.logout_back('d.json')
 nauta.test_net()
 nauta.test_net()
-nauta.login_net('leonel.perez77@nauta.com.cu', 'UpaNvbr8.1212')
+nauta.login_net('')
 import time
 nauta.save_data('d.json')
 '''
